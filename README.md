@@ -1,6 +1,8 @@
 # CarbonCreditBlockchain
-Made for Slingshot Open Source Sunday. Uses HyperLedger Fabric to simulate a blockchain network for the trading of carbon credits for firms
-# What is a Blockchain?
+Made for Slingshot Open Source Sunday. Simulates a blockchain network for the daily trading of carbon credits for firms.
+
+# Research
+## What is a Blockchain?
 Blockchain technology was first used in the early 90s to timestamp dates on important documents such that noone could tamper with them. Other than that, the technology was mostly unused. That was until, in 2009, Satoshi Nakamoto invented Bitcoin, the world's most popular cryptocurrency.</br>
 
 
@@ -19,16 +21,31 @@ For Blockchain technology to be used effectively in enterprise, the following cr
 - Low latency of transaction confirmation
 - Privacy and confidentiality of transactions and data pertaining to business transactions
 
-## Distributed Ledger
+### Distributed Ledger
 As described, Blockchain transactions are stored on a distributed ledger. This is a consensus of replicated, shared, and synchronized digital data that is able to be physically spread across a wide geographical area.
-## Smart Contracts
+### Smart Contracts
 Smart contracts can act as a method of regulating control across the ledger. Since the ledger is continually updating, it helps greatly to have a sound method to support this. Enter Smart Contracts. They allow various different operations to be performed on the ledger (such as actually making a transaction, querying the ledger) efficiently and cleanly. Moreover, they can just act as a quality of life improvement by automating repetitive or intensive tasks on the ledger e.g making a calculation of a data value of a new block on a ledger based on one or more variables.
-## Consensus
+### Consensus
 The process of keeping the ledger transactions synchronized across the network — to ensure that ledgers update only when transactions are approved by the appropriate participants, and that when ledgers do update, they update with the same transactions in the same order — is called consensus. This is at the core of every blockchain system.
-# What is HyperLedger Fabric?
+## What is HyperLedger Fabric?
 In its own words, HLF is "an open source enterprise-grade permissioned distributed ledger technology (DLT) platform, designed for use in enterprise contexts, that delivers some key differentiating capabilities over other popular distributed ledger or blockchain platforms."
 
 
 The main allure of HLF is its modular architecture, which it describes as "plug and play"
-# Carbon Credits
-In business, carbon credits are 'permits' that allow the firm that owns them to emit a certain amount of CO2 (or other greenhouse gases for the matter). This amount is stipulated by how many credits they have. The more credits a firm has, the more CO2 they can emit. Exceeding their credit limit results in fines that increase the more of a debt they have. Moreover, firms can sell permits off between one another, which allows firms with excess permits to make more profit, as well as firms that are exceeding their limit to minimise costs by reducing fines by gaining more permits. Overall, this incentivises firms to minimise their CO2 outputs such that they can become a firm that can sell their permits and make profit. This is assuming a basic principle of behavioural economics: that firms act rationally. 
+## Carbon Credits
+In business, carbon credits are 'permits' that allow the firm that owns them to emit a certain amount of CO2 (or other greenhouse gases for the matter). This amount is stipulated by how many credits they have. The more credits a firm has, the more CO2 they can emit. Exceeding their credit limit results in fines that increase the more of a debt they have. Moreover, firms can sell permits off between one another, which allows firms with excess permits to make more profit, as well as firms that are exceeding their limit to minimise costs by reducing fines by gaining more permits. Overall, this incentivises firms to minimise their CO2 outputs such that they can become a firm that can sell their permits and make profit. This is assuming a basic principle of behavioural economics: that firms act rationally.
+
+## Usage
+
+### Windows
+Run ```python main.py``` in the project directory
+
+### Mac/Linux
+Run ```python3 main.py``` in the project directory
+
+## Future Improvements
+Some better OOP principles e.g. polymorphic inheritance could've been used to simulate low and high polluting firms <br/>
+</br>
+
+## Sources
+Blockchain class: https://www.youtube.com/watch?v=b81Ib_oYbFk https://github.com/howCodeORG/Simple-Python-Blockchain  <br/>
