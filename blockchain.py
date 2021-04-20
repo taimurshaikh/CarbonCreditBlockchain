@@ -2,9 +2,6 @@
 import datetime
 import hashlib
 
-TOKEN_PRICE = 100
-FUEL_PRICE = 200
-
 class Block:
 
     def __init__(self, transactionLst):
@@ -28,7 +25,7 @@ class Block:
     def __str__(self):
         return "Block Hash: " + str(self.hash()) + "\nBlockNo: " + str(self.blockNo) + "\nBlock Data: " + str(self.data) + "\nHashes: " + str(self.nonce) + "\n--------------"
 
-class Blockchain:
+class BlockChain:
 
     def __init__(self):
         self.diff = 10

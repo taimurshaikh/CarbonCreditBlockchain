@@ -45,7 +45,8 @@ Run ```python3 main.py``` in the project directory
 
 ## Future Improvements
 Some better OOP principles e.g. polymorphic inheritance could've been used to simulate low and high polluting firms <br/>
-</br>
+Not hard coding tokens set per firm as well as other values</br>
+General refactoring
 
 ## Sources
 Blockchain class: https://www.youtube.com/watch?v=b81Ib_oYbFk https://github.com/howCodeORG/Simple-Python-Blockchain  <br/>

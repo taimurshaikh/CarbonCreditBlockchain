@@ -1,11 +1,13 @@
-from blockchain import TOKEN_PRICE, FUEL_PRICE
+from main import TOKEN_PRICE, FUEL_PRICE
 
 class Firm:
-    def __init__(name, startingMoney, startingTokens, startingFuel):
+    def __init__(self, name, startingMoney, startingTokens, startingFuel, flag):
         self.name = name
-        self.money = self.startingMoney
+        self.money = startingMoney
         self.tokens = startingTokens
         self.fuelCount = startingFuel
+        # This determines if a firm has high costs to reduce pollution. Thus, they will prefer buying tokens.
+        self.isHighPolluting = flag
 
     def buyTokensFromFirm(self, sender, numTokens):
         price = numTokens * TOKEN_PRICE
